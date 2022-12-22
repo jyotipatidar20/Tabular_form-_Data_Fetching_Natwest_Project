@@ -1,6 +1,25 @@
 .App {
   text-align: center;
 }
+table  th{
+  width: 270px;
+  height: 40px;
+  border: 2px solid rgb(5, 0, 0); 
+  background-color: rgb(73, 87, 238);
+  text-align: left;
+
+  
+ 
+}
+tr:nth-child(even) {
+  background-color: #8f7fc9;
+}
+td {
+    width: 270px;
+    height: 40px;
+
+    border: 2px solid black;
+}
 
 .App-logo {
   height: 40vmin;
